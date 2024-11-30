@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout design</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+        header{
+            position: sticky;
+            top: 0px;
+        }
+        nav {
+            border: 4px solid pink;
+            height: 8.5vh;
+            background-color: antiquewhite;
+        }
+
+        main {
+            background-color: black;
+        }
+
+        .container {
+            border: 2px solid red;
+            height: 70vh;
+            background-color: aquamarine;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 43px 0px;
+
+        }
+
+        .box1 {
+            border: 2px solid red;
+            height: 50vh;
+            width: 40%;
+            background-color: rgb(141, 141, 220);
+            margin: 0px 10px;
+            position: absolute;
+            left: 70px;
+        }
+
+        .box2 {
+            border: 2px solid red;
+            height: 50vh;
+            width: 40%;
+            background-color: rgb(36, 36, 84);
+            margin: 0px 10px;
+            position: absolute;
+            right: 70px;
+        }
+
+        div.text {
+            padding: 20px;
+            height: 30vh;
+            width: 90vw;
+            margin: 33vw 44vw;
+            border: 2px solid black;
+            background-color: blue;
+            font-size: x-large;
+            text-align: center;
+            font-weight: 500;
+            border-radius: 13px;
+        }
+        .orange{
+            
+        }
+
+        footer {
+            background-color: blanchedalmond;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav></nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="text">
+                <p>Welcome to sigma web development course</p>
+            </div>
+            <div class="oranage"></div>
+        </div>
+
+    </main>
+
+    <footer>
+
+
+    </footer>
+
+</body>
+
+</html>
