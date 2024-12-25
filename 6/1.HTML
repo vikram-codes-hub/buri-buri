@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: 'Courier New', Courier, monospace;
+        }
+        H1{
+            color: #1b74e4;
+            font-weight: 900;
+        }
+     
+        
+        button:hover{
+            background-color: antiquewhite;
+            color:red ;
+        }
+        button :active{
+            background-color: hotpink;
+        }
+        input[type="radio"]:checked+label{
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <H1>  Facebook</H1>
+    <button id="vik">log in</button>
+    <button id="vik">sign up</button>
+    <div><h2>search</h2>
+        <input type="search"  name="search"placeholder="Search your friends">
+    <button id="sin">search</button></div>
+    <div><input type="radio" id="yes" name="agreement">
+    <label for="yes">yes</label>
+    <input type="radio" id="no" name="agreement">
+    <label for="no">no</label>
+</div>
+</body>
+</html>
